@@ -1,6 +1,15 @@
 # Xutls3
 Xutls3请求方法封装，快速上手使用，欢迎下载star。
 
+封装内容主要是对Xutils3网络方面的方法进行封装主要是下面的类文件，其中有与你业务不需要的参数，自行剔除，很简单：
+-HttpCenter
+
+可有可无的类，之前项目中配合HttpCenter类的一些类，如果对你的项目有用直接用，没用就别用了。
+-VersionInfoUtil
+-TimeUtil
+-NetWorkUtil
+-LogUtil
+
 封装的方法如下 ：
 
 package com.welink.worker.http;
